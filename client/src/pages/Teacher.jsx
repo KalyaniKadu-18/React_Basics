@@ -1,4 +1,4 @@
-import UserContext from "../context/UserContext";
+import UserContext from "../../context/UserContext.js";
 import React, { useContext } from 'react'
 
 function Teacher() {

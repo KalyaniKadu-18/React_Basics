@@ -1,7 +1,8 @@
 import React from 'react';
-import Student from '../pages/Student.jsx';
+import Student from '../src/pages/Student.jsx';
 import UserContext from '../context/UserContext.js';
-import Teacher from '../pages/Teacher.jsx';
+import Teacher from '../src/pages/Teacher.jsx';
+import Demo from '../src/pages/Demo.jsx';
 
 function App() {
 
@@ -21,6 +22,7 @@ const teacher = {
         <Student />
         <Teacher/>
       </UserContext.Provider>
+      <Demo/>
     </div>
   )
 }

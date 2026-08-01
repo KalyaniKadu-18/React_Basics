@@ -3,6 +3,7 @@ import Student from '../src/pages/Student.jsx';
 import UserContext from '../context/UserContext.js';
 import Teacher from '../src/pages/Teacher.jsx';
 import Demo from '../src/pages/Demo.jsx';
+import Practice from './pages/Practice.jsx';
 
 function App() {
 
@@ -23,6 +24,7 @@ const teacher = {
         <Teacher/>
       </UserContext.Provider>
       <Demo/>
+      <Practice/>
     </div>
   )
 }

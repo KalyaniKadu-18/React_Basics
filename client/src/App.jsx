@@ -4,6 +4,7 @@ import UserContext from '../context/UserContext.js';
 import Teacher from '../src/pages/Teacher.jsx';
 import Demo from '../src/pages/Demo.jsx';
 import Practice from './pages/Practice.jsx';
+import APIDemo from './pages/APIDemo.jsx';
 
 function App() {
 
@@ -25,6 +26,7 @@ const teacher = {
       </UserContext.Provider>
       <Demo/>
       <Practice/>
+      <APIDemo/>
     </div>
   )
 }
